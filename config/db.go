@@ -1,25 +1,3 @@
-// package config
-
-// import (
-// 	"database/sql"
-// 	"log"
-
-// 	_ "github.com/go-sql-driver/mysql"
-// 	_ "github.com/lib/pq"
-// )
-
-// func ConnectDB() *sql.DB {
-// 	mySQLDB, err := sql.Open("mysql", "root@tcp(localhost:3306)/robot_db?parseTime=true&loc=Asia%2FHo_Chi_Minh")
-// 	if err != nil {
-// 		log.Fatal("Khong the ket noi duoc", err)
-// 	}
-// 	if err := mySQLDB.Ping(); err != nil {
-// 		log.Fatal("Khong the ping toi DB", err)
-
-//		}
-//		log.Println("Ket noi thanh cong")
-//		return mySQLDB
-//	}
 package config
 
 import (
