@@ -54,7 +54,7 @@ go get github.com/stretchr/testify/assert
 
 ```bash
 go test -coverprofile="cover.out" ./...
-![alt text](image-1.png)
 go tool cover -html="cover.out"
-![alt text](image.png)
 ```
+![alt text](image-1.png)
+![alt text](image.png)
